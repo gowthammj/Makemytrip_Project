@@ -12,7 +12,10 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 		features = "src/test/resources/MakeMyTrip.feature",
 		glue = {"com.MakeMyTrip_StepDefinition","com.MakeMyTrip_HooksFile"},
 		dryRun = false,
-		plugin = {"pretty","html:target/reports/makemytrip_reports.html"},
+		plugin = {"pretty","html:target/reports/makemytrip_reports.html",
+				"json:target/reports/makemytrip_reports.json",
+				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+				},
 		publish = true,
 		snippets = SnippetType.CAMELCASE,
 		monochrome = true

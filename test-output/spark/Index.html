@@ -1,0 +1,443 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>MakeMyTrip_Project</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Build 1</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">May 8, 2025 03:18:36 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">To Automate MakeMyTrip Webapplication Sucessfully.</p>
+            <p class="text-sm">
+              <span>3:18:37 pm</span> / <span>00:00:09:973</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">To Automate MakeMyTrip Webapplication Sucessfully.</h5>
+<span class='badge badge-success'>05.08.2025 3:18:37 pm</span>
+<span class='badge badge-danger'>05.08.2025 3:18:47 pm</span>
+<span class='badge badge-default'>00:00:09:973</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>To Automate choose locations.</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.MakeMyTrip_StepDefinition.StepDefinition_MakeMyTrip.userShouldCloseThePopupWindow()">
+                <span>Given user should close the popup window.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.MakeMyTrip_StepDefinition.StepDefinition_MakeMyTrip.clickTheBusesTab()">
+                <span>And click the buses tab.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.MakeMyTrip_StepDefinition.StepDefinition_MakeMyTrip.userSelectTheLocationFromChennaiTamilNaduToBangaloreKarnataka()">
+                <span>Then user Select the location from Chennai,Tamil Nadu To Bangalore,Karnataka.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.MakeMyTrip_StepDefinition.StepDefinition_MakeMyTrip.chooseTravelDateAsNextDateFromTheDefaultDateAndClickTheSearchButton()">
+                <span>And Choose Travel Date as Next date from the default date and Click the Search button.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.MakeMyTrip_StepDefinition.StepDefinition_MakeMyTrip.user_choose_filters_ac_sleeper()">
+                <span>Then user Choose Filters AC & Sleeper.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.MakeMyTrip_StepDefinition.StepDefinition_MakeMyTrip.choose_single_checkbox()">
+                <span>And Choose Single Checkbox.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="com.MakeMyTrip_StepDefinition.StepDefinition_MakeMyTrip.choose_pick_up_point_sholinganallur_and_choose_pick_up_time_as_6pm_to_11pm()">
+                <span>Then Choose Pick up point Sholinganallur and Choose Pick up time as 6PM to 11PM.</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=136.0.3240.50)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [38a36fb74dad3b12063c55c4b52883d7, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.A07765139E1B7815EF2F8739FB6AE45A.d.6E220700FA30C8230E3C2099AFC8C09B.e.249}], script=arguments[0].click()}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.50, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64342}, msedge: {msedgedriverVersion: 136.0.3240.50 (4e2c41645f24..., userDataDir: C:\Users\gowth\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64342/devtoo..., se:cdpVersion: 136.0.3240.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 38a36fb74dad3b12063c55c4b52883d7
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+	at wrapper.Base.js_excecutor_click(Base.java:203)
+	at com.MakeMyTrip_StepDefinition.StepDefinition_MakeMyTrip.choose_pick_up_point_sholinganallur_and_choose_pick_up_time_as_6pm_to_11pm(StepDefinition_MakeMyTrip.java:78)
+	at ✽.Choose Pick up point Sholinganallur and Choose Pick up time as 6PM to 11PM.(file:///C:/Users/gowth/eclipse-workspace/MakeMyTrip_Project/src/test/resources/MakeMyTrip.feature:18)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.MakeMyTrip_StepDefinition.StepDefinition_MakeMyTrip.choose_travel_operators_intr_city_smart_bus_parveen_travels()">
+                <span>Then Choose Travel Operators–IntrCity SmartBus& Parveen Travels.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.MakeMyTrip_StepDefinition.StepDefinition_MakeMyTrip.choose_drop_point_lal_bagh_and_also_choose_drop_time_as_6am_to_11am()">
+                <span>And Choose Drop point Lal Bagh and also Choose Drop time as 6AM to 11AM.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.MakeMyTrip_StepDefinition.StepDefinition_MakeMyTrip.user_get_all_the_bus_prices_using_get_text_and_print_them_in_the_console()">
+                <span>Then user Get all the Bus prices using getText() and Print them in the Console.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.MakeMyTrip_StepDefinition.StepDefinition_MakeMyTrip.choose_the_cheapest_bus_and_select_any_number_of_seat()">
+                <span>Then Choose the Cheapest Bus and Select any number of seat.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.MakeMyTrip_StepDefinition.StepDefinition_MakeMyTrip.select_pick_up_point_sholinganallur_drop_point_lal_bagh_and_click_continue_button()">
+                <span>And Select Pick up point Sholinganallur & Drop point –Lal Bagh and click continue button.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.MakeMyTrip_StepDefinition.StepDefinition_MakeMyTrip.its_clicked_then_the_user_enter_travellers_details_name_age_and_gender()">
+                <span>When its clicked then the user Enter Travellers Details Name,Age and Gender.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.MakeMyTrip_StepDefinition.StepDefinition_MakeMyTrip.enter_contact_details_email_id_and_mobile_number()">
+                <span>And Enter Contact Details-EmailId and Mobile Number</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.MakeMyTrip_StepDefinition.StepDefinition_MakeMyTrip.select_state_tamil_nadu()">
+                <span>Then Select state Tamil Nadu.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.MakeMyTrip_StepDefinition.StepDefinition_MakeMyTrip.select_check_box_to_confirm_and_save_billing_details_to_your_profile()">
+                <span>And Select CheckBox to Confirm and save billing details to your profile.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.MakeMyTrip_StepDefinition.StepDefinition_MakeMyTrip.its_saved_select_any_coupon_code_radio_button_if_available()">
+                <span>When its saved Select any Coupon Code Radio button if available.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.MakeMyTrip_StepDefinition.StepDefinition_MakeMyTrip.click_continue_button()">
+                <span>And Click Continue button.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.MakeMyTrip_StepDefinition.StepDefinition_MakeMyTrip.user_verify_and_print_the_text_payment_options()">
+                <span>Then user Verify and Print the text Payment options.</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.MakeMyTrip_StepDefinition.StepDefinition_MakeMyTrip.take_screenshot_of_the_payment_page_save_it()">
+                <span>And Take Screenshot of the Payment Page & Save it.</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.StaleElementReferenceException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.StaleElementReferenceException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:18:46 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='10'>Then Choose Pick up point Sholinganallur and Choose Pick up time as 6PM to 11PM.</a>
+<div class="">
+<span class="badge badge-default">To Automate MakeMyTrip Webapplication Sucessfully..To Automate choose locations..Then Choose Pick up point Sholinganallur and Choose Pick up time as 6PM to 11PM.</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>May 8, 2025 03:18:36 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>May 8, 2025 03:18:47 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='100%'><b>1</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='30%'><b>6</b> steps passed</small></div>
+<div>
+<small data-tooltip='5%'><b>1</b> steps failed,
+<b>13</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"To Automate MakeMyTrip Webapplication Sucessfully.":9.973
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 1,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 6,
+failGrandChild: 1,
+warningGrandChild: 0,
+skipGrandChild: 13,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
